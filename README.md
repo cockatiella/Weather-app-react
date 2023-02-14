@@ -13,3 +13,9 @@ Weather app created with React.
 1. npm install
 2. npm start
 
+---
+
+## Deployment
+
+[click here](https://weather-app-react-sofia.netlify.app/)
+⛅🌤️🌥️
