@@ -13,10 +13,39 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+
+  /* def img */
+  background-image: url("https://media.tenor.com/rVJMTGG_uKkAAAAd/miasto.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .text-container {
-  filter: none;
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  margin: 20px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.text-container:hover {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  transform: matrix(1.05, 0, 0, 1.05, 0, 0);
+}
+
+h4 {
+  font-size: 1rem;
+  color: lightcyan;
+  margin: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 input {
@@ -24,12 +53,15 @@ input {
   padding: 10px;
   border: 5px solid lightblue;
   margin: 30px;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  outline: none;
 }
 
 h1 {
-  color: pink;
+  color: whitesmoke;
   font-size: 50px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 p {
@@ -41,7 +73,7 @@ p {
 }
 
 .Clouds {
-  background-image: url("https://64.media.tumblr.com/635703e5236e5e0417b6158f4445ec2f/60d390bd719e184f-9a/s2048x3072/739004df9abe7ff1ab653b23217745c07b1a7993.gifv");
+  background-image: url("https://media.tenor.com/AE5cg4I3P6sAAAAC/clouds-purple.gif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -67,8 +99,29 @@ p {
   background-size: cover;
 }
 
-.Haze{
+.Haze {
   background-image: url("https://64.media.tumblr.com/cfc053fdad332213b14a094bec031c69/tumblr_okvs2kRlHL1w5pisto1_500.gifv");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.Drizzle {
+  background-image: url("https://64.media.tumblr.com/f40fad30a10368fa1b32c3a0a9f61d40/tumblr_psw6ybdabW1uxrf48o1_640.gifv");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Thunderstorm {
+  background-image: url("https://64.media.tumblr.com/387d2b9ac01ae68d8ca00f9232be6b19/2321f27bc9861114-4c/s640x960/a7a8e693a79173758d303b00d4416dcf3038f637.gifv");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Snow {
+  background-image: url("https://64.media.tumblr.com/9c998ff636cf09452bf586e712f746da/785c00e387f67c8b-b6/s500x750/94dde126807a4ba8b75b55f342a5612893f53894.gifv");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }

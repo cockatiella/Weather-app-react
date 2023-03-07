@@ -22,6 +22,7 @@ export default function WeatherApp() {
          
             <div className='text-container'>
             <h1>☁️Weather App☀️</h1>
+            <h4>Enter city and press enter</h4>
                 <input
                     onKeyPress={searchCity}
                     value={location}
