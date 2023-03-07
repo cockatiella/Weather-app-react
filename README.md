@@ -17,5 +17,5 @@ Weather app created with React.
 
 ## Deployment
 
-[click here](https://weather-app-react-sofia.netlify.app/)
+[click here](https://luminous-treacle-9786a5.netlify.app/)
 ⛅🌤️🌥️
